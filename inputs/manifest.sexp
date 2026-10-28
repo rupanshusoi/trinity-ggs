@@ -1,0 +1,13 @@
+(
+ (:name "ffn_llama" :workload "ffn" :model "llama" :iter 10)
+ (:name "ffn_falcon" :workload "ffn" :model "falcon" :iter 10)
+ (:name "keyformer_llama" :workload "keyformer" :model "llama" :iter 8)
+ (:name "keyformer_falcon" :workload "keyformer" :model "falcon" :iter 8)
+ (:name "prenorm_llama" :workload "prenorm" :model "llama" :iter 10)
+ (:name "prenorm_falcon" :workload "prenorm" :model "falcon" :iter 8)
+ (:name "qknorm_llama" :workload "qknorm" :model "llama" :iter 8)
+ (:name "qknorm_falcon" :workload "qknorm" :model "falcon" :iter 8)
+ (:name "roco_llama" :workload "roco" :model "llama" :iter 8)
+ (:name "roco_falcon" :workload "roco" :model "falcon" :iter 8)
+ (:name "vanilla_llama" :workload "vanilla" :model "llama" :iter 8)
+ (:name "vanilla_falcon" :workload "vanilla" :model "falcon" :iter 8))

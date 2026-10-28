@@ -1,0 +1,9 @@
+(seq
+    (loop 0 1024 tile_n n
+        (store (tensor B)
+            (exp (load (input A) (index (fulltile) (tile n))))
+            (index (fulltile) (tile n))))
+    (loop 0 1024 tile_n n
+        (store (output C)
+            (sqrt (load (tensor B) (index (fulltile) (tile n))))
+            (index (fulltile) (tile n)))))
